@@ -3,11 +3,20 @@ body{
   background-image: url("../image/farbe3.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: auto auto;
 }
 img{
   width: 100%;
   height: auto;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: red;
+}
+
 .head-cont{
   width: 100%;
   position: fixed;
@@ -21,7 +30,7 @@ img{
 }
 
 .wrapper{
-  width:1000px;
+  max-width: width:3000px;
   margin-left: auto;
   margin-right: auto;
 
