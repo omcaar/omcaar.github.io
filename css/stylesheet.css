@@ -1,4 +1,30 @@
 body{
   font-family: 'Orbitron', sans-serif;
   background-image: url("../image/farbe3.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.head-cont{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+.head1{
+  height: 70px;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.wrapper{
+  width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 20px;
+  margin-top: 70px;
 }
