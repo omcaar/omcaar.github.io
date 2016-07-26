@@ -1,21 +1,33 @@
+*{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
 body{
   font-family: 'Arvo', serif;
-  background-image: url("../image/farbe3.png");
+  background-image: url("../image/bunt3.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: auto auto;
+
 }
+
 img{
   width: 100%;
   height: auto;
-  display:
+padding: 5px;
 }
+
 a{
   text-decoration: none;
   color: black;
 }
 a:hover{
   color: red;
+}
+
+p{
+  font-style: italic;
 }
 
 .head-cont{
@@ -37,4 +49,56 @@ a:hover{
 
   padding: 20px;
   margin-top: 70px;
+}
+
+.wrappercont{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+}
+
+.contlinks{
+  display: inline-block;
+  text-align: right;
+  width: 33%;
+  vertical-align: top;
+}
+
+.contmitte{
+  display: inline-block;
+
+  width: 33%;
+
+}
+
+.contrechts{
+  display: inline-block;
+  width: 33%;
+
+}
+
+.lini{
+  border: 3px solid red;
+  padding: 5px;
+}
+
+.rela{
+  position: relative;
+  height: 300px;
+  width: auto;
+
+  padding: 0px;
+}
+.linititel{
+  border: 3px solid red;
+  padding: 15px;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+
+}
+.linititel:hover{
+  color: green;
 }
