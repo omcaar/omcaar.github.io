@@ -1,3 +1,4 @@
+
 *{
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -6,7 +7,7 @@
 
 body{
   font-family: 'Arvo', serif;
-  background-image: url("../image/bunt3.png");
+  background-image: url("../image/hintergrund2.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
 
@@ -69,13 +70,13 @@ p{
   display: inline-block;
 
   width: 33%;
-
+vertical-align: top;
 }
 
 .contrechts{
   display: inline-block;
   width: 33%;
-
+vertical-align: top;
 }
 
 .lini{
@@ -93,12 +94,10 @@ p{
 .linititel{
   border: 3px solid red;
   padding: 15px;
-  width: 100%;
   position: absolute;
-  bottom: 10px;
-  left: 20px;
-
+  top: 15px;
+  left:17px;
 }
 .linititel:hover{
-  color: green;
+  color: red;
 }
