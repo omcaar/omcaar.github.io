@@ -101,3 +101,19 @@ vertical-align: top;
 .linititel:hover{
   color: red;
 }
+.relavid{
+  position: relative;
+  height: 300px;
+  width: auto;
+
+  padding: 0px;
+}
+
+
+.opener{
+  border: 3px solid red;
+  margin-left: :auto;
+  width: 800px;
+  text-align:right;
+  padding: 10px;
+}
